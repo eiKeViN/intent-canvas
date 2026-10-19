@@ -26,7 +26,7 @@
 
 - 仓库名：`intent-canvas`
 - 默认分支：`main`
-- 远程仓库：待配置
+- 远程仓库：[eiKeViN/intent-canvas](https://github.com/eiKeViN/intent-canvas)（公开）
 - 协作约定：[AGENTS.md](AGENTS.md)
 
 ## 待决定
@@ -34,6 +34,6 @@
 - 结构化中间表示、网页渲染方案与编辑内核；HTML、SVG 均未定。
 - AI 接入方式，以及模型理解、局部编辑与反馈的验证方法。
 - SVG、可编辑 PPT 的导入需求、输出范围与兼容性标准。
-- 远程仓库地址、可见性与许可证。
+- 许可证。
 
 后续随验证结果更新；不预设复杂架构或开发路线图。
