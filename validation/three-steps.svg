@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="680" viewBox="0 0 640 680">
+  <title>IntentCanvas selection and nested-edit fixture</title>
+  <desc>Three nested modules, two crossing connectors, and one nearby distractor. Text remains text.</desc>
+  <rect id="background" width="640" height="680" fill="#faf9f6"/>
+  <g id="flow">
+    <g id="step-1">
+      <rect id="box-1" x="100" y="60" width="300" height="110" rx="12" fill="#e6f0fa" stroke="#275d85" stroke-width="2"/>
+      <g id="label-group-1"><text id="label-1" x="250" y="125" text-anchor="middle" font-family="Times New Roman, serif" font-size="24">Plan</text></g>
+    </g>
+    <g id="step-2">
+      <rect id="box-2" x="80" y="270" width="340" height="110" rx="12" fill="#e6f0fa" stroke="#275d85" stroke-width="2"/>
+      <g id="label-group-2"><text id="label-2" x="250" y="335" text-anchor="middle" font-family="Times New Roman, serif" font-size="24">Edit</text></g>
+    </g>
+    <g id="step-3">
+      <rect id="box-3" x="120" y="480" width="260" height="110" rx="12" fill="#e6f0fa" stroke="#275d85" stroke-width="2"/>
+      <g id="label-group-3"><text id="label-3" x="250" y="545" text-anchor="middle" font-family="Times New Roman, serif" font-size="24">Review</text></g>
+    </g>
+    <path id="arrow-1" d="M250 177V252 M242 244L250 252L258 244" fill="none" stroke="#475569" stroke-width="3"/>
+    <path id="arrow-2" d="M250 387V462 M242 454L250 462L258 454" fill="none" stroke="#475569" stroke-width="3"/>
+  </g>
+  <g id="distractor">
+    <rect id="note-box" x="450" y="295" width="150" height="60" rx="6" fill="#fff0d6" stroke="#a26416" stroke-width="2"/>
+    <text id="note-label" x="525" y="332" text-anchor="middle" font-family="Times New Roman, serif" font-size="18">Keep unchanged</text>
+  </g>
+</svg>

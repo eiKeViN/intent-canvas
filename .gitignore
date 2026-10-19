@@ -20,3 +20,6 @@ Thumbs.db
 Desktop.ini
 *.tmp
 *.swp
+
+# Private validation inputs, snapshots and editor outputs
+.local/

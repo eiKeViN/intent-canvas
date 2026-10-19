@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>意绘对象探针</title>
+  <style>
+    body { margin: 16px; font: 14px/1.5 system-ui, sans-serif; }
+    button { padding: 8px 12px; margin: 0 8px 12px 0; }
+    pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+  </style>
+  <script src="https://onlyoffice.github.io/sdkjs-plugins/v1/plugins.js"></script>
+  <script defer src="plugin.js"></script>
+</head>
+<body>
+  <p>只读验证：在幻灯片中选择对象后刷新。输出用于检查接口覆盖，不代表兼容性通过。</p>
+  <button id="inspect" disabled>读取当前页与选区</button>
+  <button id="download" disabled>下载本地记录</button>
+  <pre id="result" aria-live="polite">等待编辑器连接。请在 ONLYOFFICE 中安装插件；单独打开此网页不能访问文档。</pre>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "IntentCanvas object probe",
+  "guid": "asc.{B22D347D-6F58-4D20-8DE4-84EE04EA1A14}",
+  "baseUrl": "",
+  "variations": [{
+    "description": "Read selected objects and chart capability; no document edits",
+    "url": "index.html",
+    "EditorsSupport": ["slide"],
+    "isViewer": true,
+    "type": "panelRight",
+    "initDataType": "none",
+    "initData": "",
+    "buttons": [],
+    "size": [420, 600]
+  }]
+}
