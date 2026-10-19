@@ -22,12 +22,13 @@
 
 ## 当前阶段
 
-项目初始化：仅建立文档与本地 Git 仓库。无应用骨架、产品依赖、构建或测试流程，暂无运行命令。
+项目初始化与设计讨论：已建立 GitHub 仓库，并整理交互与实现设计草案。无应用骨架、产品依赖、构建或测试流程，暂无运行命令。
 
 - 仓库名：`intent-canvas`
 - 默认分支：`main`
 - 远程仓库：[eiKeViN/intent-canvas](https://github.com/eiKeViN/intent-canvas)（公开）
 - 协作约定：[AGENTS.md](AGENTS.md)
+- 设计草案：[DESIGN.md](DESIGN.md)（交互、对象、中间表示、导出与首轮验证建议；尚未锁定选型）
 
 ## 待决定
 
