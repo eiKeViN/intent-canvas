@@ -8,12 +8,12 @@ PPT 比较 PowerPoint 原生接口与 ONLYOFFICE，矢量交互先以 Penpot 官
 
 | 材料 | 用途 | 本次检查 |
 | --- | --- | --- |
-| `powerpoint-inspect.ps1` | 从已打开的指定文稿读取形状 ID、分组子对象、文字摘要、图表系列和当前选区 | 按微软公开 API 编写；当前 Linux 无 PowerPoint／Windows PowerShell，未做宿主执行与 PowerShell 解析验证 |
-| `onlyoffice/` | 只读插件：读取当前页与选区、图表系列数量，显式记录缺失接口 | JavaScript 语法及 JSON 格式检查通过；未安装、未连接编辑器 |
-| `pptx_parts.py` | 比较 PPTX 解压后各部件的内容摘要及部分 XML 结构，不修改输入 | Python 3.12 下 6 项合成测试通过；命令行生成报告及拒绝覆盖已有文件的检查通过；这不是实际编辑器往返测试 |
-| `three-steps.svg` | 嵌套分组、文字、跨区箭头和干扰对象的统一样例 | XML 可解析、ID 唯一、4 个文字节点；未在 Penpot／Inkscape 实测 |
+| `powerpoint-inspect.ps1` | 从已打开的指定文稿读取形状 ID、分组子对象、文字摘要、图表系列和当前选区 | Windows PowerShell 5.1 语法解析通过；本机未发现 PowerPoint 程序或 COM 注册，未连接宿主，也未执行读取 |
+| `onlyoffice/` | 只读插件：读取当前页与选区、图表系列数量，显式记录缺失接口 | JavaScript 语法及 JSON 格式检查通过；本机未发现 ONLYOFFICE 安装，未连接编辑器 |
+| `pptx_parts.py` | 比较 PPTX 解压后各部件的内容摘要及部分 XML 结构，不修改输入 | 本机 Python 3.9.6 下 6 项合成测试通过；合成 PPTX 报告生成和拒绝覆盖检查通过；这不是实际编辑器往返测试 |
+| `three-steps.svg` | 嵌套分组、文字、跨区箭头和干扰对象的统一样例 | XML 可解析、ID 唯一、4 个文字节点；Inkscape 1.2.1 PNG 渲染成功；未做交互编辑或 Penpot 实测 |
 
-本次没有安装产品依赖、购买授权或接入模型。当前插件目录检索没有找到相应编辑器连接，因此不能在本会话内完成宿主实验。更多连接可能出现在[插件目录](https://chatgpt.com/plugins)，本地验证不依赖该目录。
+本次只使用仓库内 SVG 和本地生成的最小合成 PPTX；没有打开或修改用户文稿，没有安装产品依赖、购买授权或接入模型。当前没有 Penpot MCP 连接；PowerPoint COM 与 ONLYOFFICE 不可用，因此宿主读写、撤销、保存重开和格式往返均未运行。更多连接可能出现在[插件目录](https://chatgpt.com/plugins)，本地验证不依赖该目录。
 
 ## 本地 Codex 从这里继续
 
